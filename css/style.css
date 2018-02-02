@@ -1,0 +1,15 @@
+body { background: #ccc; padding: 20px 0; }
+
+.container { width: 80%; background-color: #eee; box-shadow: 0 0 10px; padding: 20px 100px; margin: 0 auto; }
+
+.label, .btn { padding: 10px; margin-left: 20px; display: inline-block; min-width: 100px; }
+
+.btn { animation: flash 1s; }
+
+#js-playerPick_rock:hover, #js-playerPick_paper:hover, #js-playerPick_scissors:hover { animation: wobble 1s; } 
+
+.btn:active { background-color: #DC143C; animation: zoomOut 2s; }
+
+#js-winGameElement { width: 60%; }
+
+
