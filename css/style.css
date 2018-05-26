@@ -1,15 +1,46 @@
-body { background: #ccc; padding: 20px 0; }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-.container { width: 80%; background-color: #eee; box-shadow: 0 0 10px; padding: 20px 100px; margin: 0 auto; }
+body {
+	background: -webkit-linear-gradient(#333333, #777777);
+	padding: 20px 0;
+	min-height: 100vh;
+	color: #fff;
+}
 
-.label, .btn { padding: 10px; margin-left: 20px; display: inline-block; min-width: 100px; }
+.container {
+	width: 80%;
+	background: -webkit-linear-gradient(#333399, #9999FF);
+	box-shadow: 0 0 20px;
+	padding: 40px 100px;
+	margin: 0 auto;
+}
 
-.btn { animation: flash 1s; }
+.label, .btn {
+	padding: 10px;
+	margin-left: 20px;
+	display: inline-block;
+	min-width: 100px;
+}
 
-#js-playerPick_rock:hover, #js-playerPick_paper:hover, #js-playerPick_scissors:hover { animation: wobble 1s; } 
+.btn {
+	animation: flash 1s;
+}
 
-.btn:active { background-color: #DC143C; animation: zoomOut 2s; }
+#js-playerPick_rock:hover, #js-playerPick_paper:hover, #js-playerPick_scissors:hover {
+	animation: wobble 1s;
+} 
 
-#js-winGameElement { width: 60%; }
+#js-winGameElement {
+	width: 80%;
+	text-align: center;
+}
+
+#js-winGameElement img {
+	margin: 0 auto;
+}
 
 
